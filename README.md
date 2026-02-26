@@ -1,7 +1,7 @@
-# KidsKiosk 🛒
+# KidsKiosk Store 🛒
 **A Premium Full-Stack E-commerce Experience & Admin Management Suite.**
 
-KidsKiosk is a high-performance, responsive web application built with **React.js**, **TypeScript**, **Tailwind Css**, **Shadcn** and **Redux**. It features a dual-interface system: a polished, feature-rich storefront for customers and a data-driven administrative powerhouse for business management.
+KidsKiosk is a high-performance, responsive web application built with **Vue.js**, **TypeScript**, **Tailwind Css**, **Headlessui** and **Pinia**. It features a dual-interface system: a polished, feature-rich storefront for customers and a data-driven administrative powerhouse for business management.
 
 ---
 
@@ -19,12 +19,12 @@ KidsKiosk is a high-performance, responsive web application built with **React.j
 * **Secure Checkout:** Integrated **Stripe Payments** for a seamless, industry-standard transaction flow.
 * **Order Tracking:** Dedicated "My Orders" page with full status details and history.
 * **Modern UI/UX:**
-    * **Light & Dark Mode** support (via `next-themes`).
+    * **Light & Dark Mode** support.
     * **AOS (Animate On Scroll)** for fluid, professional entry animations.
     * Responsive Contact Us system.
 
 ### 🛡️ Admin Dashboard (The Command Center)
-* **Real-time Analytics:** Interactive **Charts and Statistics** for products, payments, and orders using **Recharts**.
+* **Real-time Analytics:** Interactive **Charts and Statistics** for products, payments, and orders using **apexcharts**.
 * **Full CRUD Operations:**
     * **Product Management:** Handle descriptions (via TinyMCE), multi-image uploads, and complex variants.
     * **Category Management:** Organize the store hierarchy.
@@ -36,16 +36,16 @@ KidsKiosk is a high-performance, responsive web application built with **React.j
 ## 🛠️ Technical Tech Stack
 
 ### **Frontend Architecture**
-* **Core:** React.js (Vite + TypeScript)
-* **State Management:** Redux Toolkit & React-Auth-Kit.
-* **Data Fetching:** **TanStack Query (React Query)** for high-performance caching and server-state synchronization.
-* **Styling & UI:** Tailwind CSS + **Radix UI** primitives + Lucide Icons.
-* **Forms & Validation:** **React Hook Form** with **Yup** and `@hookform/resolvers` for advanced form logic.
+* **Core:** Vue.js (Vite + TypeScript)
+* **State Management:** Pinia
+* **Data Fetching:** **TanStack Query ** for high-performance caching and server-state synchronization.
+* **Styling & UI:** Tailwind CSS + **Headlessui** + lucide-vue-next Icons.
+* **Forms & Validation:** **Vee Validate** with **Yup**  for advanced form logic.
 
 ### **Key Libraries**
 * **Payments:** `@stripe/stripe-js`
 * **Editor:** `@tinymce/tinymce-react` for rich product descriptions.
-* **Carousel:** `embla-carousel-react`.
+* **Carousel:** `vue3-carousel`.
 * **Animations:** `aos`, `tailwindcss-animate`.
 
 ---
@@ -54,8 +54,8 @@ KidsKiosk is a high-performance, responsive web application built with **React.j
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/MohamedGamalOmar/KidsKiosk.git](https://github.com/MohamedGamalOmar/KidsKiosk.git)
-    cd KidsKiosk
+    git clone [https://github.com/MohamedGamalOmar/ecommerce-vue.git](https://github.com/MohamedGamalOmar/ecommerce-vue.git)
+    cd ecommerce-vue
     ```
 
 2.  **Install Dependencies:**
